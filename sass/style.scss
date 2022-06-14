@@ -1,135 +1,139 @@
 @font-face {
-    font-family: Molot; 
-    src: url("../fonts/8232.ttf");
-   }
+  font-family: Molot;
+  src: url("../fonts/8232.ttf");
+}
 
 body {
-    background: url("../img/Background.png") no-repeat;
-    background-size: cover;
+  background: url("../img/Background.png") no-repeat;
+  background-size: cover;
 }
 
 .logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main_logo {
-    align-self: center;
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 30px;
+  align-self: center;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .sub_logo {
-    align-self: center;
-    display: block;
+  align-self: center;
+  display: block;
 }
 
 .content {
-    color: #e8e8e8;
-    text-shadow: 2px 2px 0px rgba(150, 41, 33, 1);
-    font-family: Molot;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 90px;
+  color: #e8e8e8;
+  text-shadow: 2px 2px 0px rgba(150, 41, 33, 1);
+  font-family: Molot;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 90px;
 }
 
 .content_block {
-    transition: all 0.5s ease;
-    opacity: 1;
-    display: flex;
-    border: 2px solid #9d2826;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    height: 45px;
-    width: 400px;
-    max-width: 400px;
-    max-height: 45px;
-    margin-bottom: 70px;
-    background: rgb(255,55,55);
-    background: linear-gradient(90deg, rgba(255,55,55,0.12) 0%, rgba(255,102,0,0.12) 100%);
+  transition: all 0.5s ease;
+  opacity: 1;
+  display: flex;
+  border: 2px solid #9d2826;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  height: 45px;
+  width: 400px;
+  max-width: 400px;
+  max-height: 45px;
+  margin-bottom: 70px;
+  background: rgb(255, 55, 55);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 55, 55, 0.12) 0%,
+    rgba(255, 102, 0, 0.12) 100%
+  );
 }
 
 .content_block:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .content_text {
-    font-size: 30px;
-    line-height: .25;
-    align-self: center;
+  font-size: 30px;
+  line-height: 0.25;
+  align-self: center;
 }
 
 .menu .content_icon {
-    width: 35px;
-    height: 26px;
-    align-self: center;
+  width: 35px;
+  height: 26px;
+  align-self: center;
 }
 
 .menu .content_text {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 
 .order .content_icon {
-    align-self: center;
-    width: 20px;
-    height: 40px;
+  align-self: center;
+  width: 20px;
+  height: 40px;
 }
 
 .order .content_text {
-    padding-left: 64px;
+  padding-left: 64px;
 }
 
 .instagram .content_icon {
-    align-self: center;
-    margin-left: -10px;
-    width: 43px;
-    height: 43px;
+  align-self: center;
+  margin-left: -10px;
+  width: 43px;
+  height: 43px;
 }
 
 .instagram .content_text {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 .sub_menu_notification {
-    text-transform: uppercase;
-    margin-top: -60px;
-    margin-bottom: 53px;
-    text-shadow: none;
-    color: white;
+  text-transform: uppercase;
+  margin-top: -60px;
+  margin-bottom: 53px;
+  text-shadow: none;
+  color: white;
 }
 
 .menu_content {
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Molot;
-    color: white;
-    display: none;
-    opacity: 0;
-    transition: all 0.5s ease;
-    font-size: 25px;
-    margin-top: 5px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Molot;
+  color: white;
+  display: none;
+  opacity: 0;
+  transition: all 0.5s ease;
+  font-size: 25px;
+  margin-top: 5px;
 }
 
 .menu_content_row {
-    max-width: 1000px;
-    justify-content: space-around;
-    display: flex;
-    padding-bottom: 25px;
+  max-width: 1000px;
+  justify-content: space-around;
+  display: flex;
+  padding-bottom: 25px;
 }
 
 .order_content {
-    width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Molot;
-    color: red;
-    display: none;
-    opacity: 0;
-    transition: all 0.5s ease;
-    font-size: 45px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Molot;
+  color: red;
+  display: none;
+  opacity: 0;
+  transition: all 0.5s ease;
+  font-size: 45px;
 }
